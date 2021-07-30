@@ -66,3 +66,8 @@ body {
 #cell:hover{
   background: rgb(150, 104, 150);;
 }
+
+h2{
+  grid-column: 1/-1;
+  grid-row: 1/3;
+}
