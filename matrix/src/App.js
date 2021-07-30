@@ -47,6 +47,7 @@ function App() {
         )
       }
     }
+    return;
     
   }
   
@@ -66,7 +67,7 @@ function App() {
           <button className="btn" onClick={createMatrix}>BUILD</button>
         </div>
         <div id="result-container" style={resultStyle}>
-          <h2>{showInfo ? "enter number of rows and columns in the input fields and click on 'Build' to get the result!" : null}</h2>
+          <h3>{showInfo ? "enter number of rows and columns in the input fields and click on 'BUILD' to get the result!" : null}</h3>
         </div>
       </div>
     </div>
