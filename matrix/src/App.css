@@ -6,7 +6,7 @@ body {
 .main-container{
   position: absolute;
   top: 0; right: 0; bottom: 0; left: 0;
-  background: brown;
+  background: rgb(150, 104, 150);
 }
 .content-container{
   position: absolute;
@@ -19,7 +19,7 @@ body {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: 100px 100px 100px auto;
-  background: burlywood;
+  background: rgb(255, 255, 255);
   text-align: center;
 }
 .header-container{
@@ -42,12 +42,24 @@ body {
   padding: 20px;
 }
 .btn{
-  background: white;
+  background: rgb(190, 190, 190);;
   border-style: none;
   font-size: 20px;
   width: 150px;
   height: 50px;
 }
-.result-container{
-  background: white;
+.btn:hover{
+  background: rgb(150, 104, 150);
+}
+#result-container{
+  background: rgb(150, 104, 150);;
+}
+#cell{
+  background-color: white;
+  width: 35px;
+  height: 35px;
+  border: black solid 2px;
+}
+#cell:hover{
+  background: rgb(150, 104, 150);;
 }
