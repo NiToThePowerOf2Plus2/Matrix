@@ -8,7 +8,7 @@ function App() {
   const [cols,setCols] = useState(0);
   const [showInfo,setShowInfo] = useState(true);
   const resultStyle = {
-    fontSize: "10px",
+    fontSize: "12px",
     background: "rgb(150, 104, 150)",
     display: "grid",
     margin: 0,
