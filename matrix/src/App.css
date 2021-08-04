@@ -84,7 +84,7 @@ body {
   place-items: center;
 }
 #cell:hover{
-  background: rgb(150, 104, 150);;
+  background: rgb(194, 173, 194);;
 }
 #result-container{
   grid-column: 1/-1;
