@@ -108,7 +108,7 @@ body {
 
 @media (max-width: 500px) {
   .main-container{
-    background: black;
+    background: rgb(150, 104, 150);
     position: absolute;
     top: 0; right: 0; bottom: 0; left: 0;
 
